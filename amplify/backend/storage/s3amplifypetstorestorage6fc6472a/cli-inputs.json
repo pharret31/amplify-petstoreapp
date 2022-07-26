@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3amplifypetstorestorage6fc6472a",
+  "bucketName": "amplify-petstore-storage-6fc6472a",
+  "policyUUID": "bb417b5a",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
