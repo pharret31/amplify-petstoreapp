@@ -11,7 +11,7 @@ import { Storage } from "@aws-amplify/storage"
 function App({ user, signOut }) {
 
     async function saveFile() {
-        await Storage.put("test.txt", "Hello")
+        await Storage.put("test.txt", "Hellope")
     }
 
     const [showForm, setShowForm] = useState(false)
